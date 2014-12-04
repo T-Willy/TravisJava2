@@ -41,7 +41,7 @@ return new String(new char[times]).replace("\0", str);
     //puts new (incremented) value in for key
     frequencies.replace(g, ++old);
 }
-  System.out.println(frequencies.toString());
+  System.out.printf(frequencies);
 }
 }
 
